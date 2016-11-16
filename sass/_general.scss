@@ -1,0 +1,87 @@
+.body-wrapper{
+	// max-width: 965px;
+	max-width: 1200px;
+	margin:0 auto;
+}
+h1{
+	font-family: 'Merriweather', serif;
+	color:  #444444;
+	font-size: 30px;
+}
+
+h2{
+	font-family: 'Merriweather', serif;
+	color:  #444444;
+	font-size: 20px;
+}
+h3{
+	font-family: 'Roboto', sans-serif;
+	color:  #444444;
+	font-size: 16px;
+}
+h4{
+	font-family: 'Roboto', sans-serif;
+	color:  #b2aa7e;
+	font-size: 12px;
+}
+
+p{
+	font-family: 'Merriweather', serif;
+	font-size: 14px;
+	font-weight: 300;
+	color:  #444444;
+}
+
+.button {
+    color:#fff;
+    border: 2px solid #48cfad;
+    background-color:  #48cfad;
+    margin-top: 12px;
+    margin:0 auto;
+    display: block;
+    border-radius: initial;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    text-transform: uppercase;
+    transition: all .5s ease;
+    border-radius: 5px;
+    p{
+    	line-height: 275%;
+    	text-align: center;
+    }
+}
+
+.button:hover{
+   opacity:.5;
+}
+
+// Responsive design
+@media all and (max-width: 1500px) { 
+	
+
+}
+@media all and (max-width: 1024px) { 
+
+}
+@media all and (max-width: 940px) { 
+
+
+}
+
+@media all and (max-width: 768px) {
+	
+}
+
+@media all and (max-width: 667px) {
+
+}
+
+@media all and (max-width: 480px) {
+	
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

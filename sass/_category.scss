@@ -1,0 +1,83 @@
+.category{
+	background-color:  #f1f1f1;
+	hr{
+		display: none;
+	}
+	.more-link{
+		margin-bottom:5%;
+	}
+}
+.category h3 {
+    font-family: Merriweather,serif;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin:0;
+    position:relative;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search{
+	background-color:  #f1f1f1;
+	hr{
+		display: none;
+	}
+}
+
+.search h3{
+	font-family: Merriweather,serif;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin:0;
+	position:relative;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	margin:0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.category .blog-container{
+	padding: 3% 0 0;
+}
+
+
+// Responsive design
+@media all and (max-width: 1500px) { 
+	
+
+}
+@media all and (max-width: 1024px) { 
+
+}
+@media all and (max-width: 940px) { 
+
+
+}
+
+@media all and (max-width: 768px) {
+	
+}
+
+@media all and (max-width: 667px) {
+
+}
+
+@media all and (max-width: 480px) {
+	
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

@@ -1,0 +1,169 @@
+.blog-single-image{
+	height: 400px;
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: -100px;
+}
+.single-blog-main{
+	padding: 0 10% 3%;
+}
+.single-blog{
+
+	h2{
+		color:#222;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	h5{
+		color:#b2aa7e;
+		text-align: center;
+	}
+	.entry-meta{
+		a{
+			text-decoration: none;
+			color:black;
+		}
+	}
+}
+.blog-image-single{
+	img{
+		margin:0 auto;
+		display: block;
+	}
+}
+.entry-title{
+	a{
+		text-decoration: none;
+		color:black;
+	}
+}
+.entry-utility{
+	a{
+		text-decoration: none;
+		color:black;
+	}
+}
+.navigation{
+	a{
+		text-decoration: none;
+		color:black;
+	}
+}
+form{
+	a{
+		text-decoration: none;
+		color:black;
+	}
+}
+#respond{
+	a{
+		text-decoration: none;
+		color:black;	
+	}
+}
+.entry-content{
+	img{
+		margin:0 auto;
+		display:block;
+	}
+	span{
+		color: #48cfad;
+	}
+}
+
+#respond textarea  {
+    width: 98%;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+    border: transparent;
+}
+#respond input {
+	background-color: #F4F4F4;
+	border-radius: 5px;
+	border: transparent;
+}
+#respond .form-submit input {
+    width: auto;
+    font-size: 12px;
+    margin-top: 10px;
+    border: solid 1px #929292;
+}
+.byuser{
+	background-color: #F4F4F4;
+	border-radius: 5px;
+	border: transparent;
+	padding:10px;
+} 
+.comment-author img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 1em 0 0;
+
+}
+.comment-author{
+	padding:10px 0;
+}
+.blog-navigation{
+	display: flex;
+	justify-content:center;
+	margin: 0 10% 10%;
+	justify-content: flex-start;
+	a{
+		color:#fff;
+		border: 2px solid #48cfad;
+		background-color:  #48cfad;
+		margin-top: 12px;
+		margin-right: 25px;
+		display: block;
+		border-radius: initial;
+		text-align: center;
+		width: 200px;
+		height: 40px;
+		text-transform: uppercase;
+		transition: all .5s ease;
+		border-radius: 5px;
+		text-decoration: none;
+		line-height: 253%;
+		
+	}
+}
+.post-content{
+	hr {
+	    display: block;
+	    margin: 0 auto;
+	    border: 1px solid  #48cfad;
+	    width: 230px;
+	}
+}
+// Responsive design
+@media all and (max-width: 1390px) { 
+
+}
+@media all and (max-width: 1024px) { 
+	
+}
+@media all and (max-width: 940px) { 
+
+
+}
+
+@media all and (max-width: 768px) {
+	
+}
+
+@media all and (max-width: 667px) {
+
+}
+
+@media all and (max-width: 480px) {
+	.single-blog {
+	    padding: 2%;
+	}
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

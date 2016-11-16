@@ -1,0 +1,43 @@
+/*
+* Theme Name: HackerYou Starter Theme
+* Theme URI: http://hackeryou.com;
+* Description: Starter theme for building any website. Created by HackerYou. * Rename this to your own theme page.
+* Version: 1.0
+* Author: HackerYou
+* Author URI: http://hackeryou.com
+*/
+
+@import 'normalize';
+@import 'typography';
+@import 'navigation';
+@import 'sidebar';
+@import 'comments';
+@import 'home';
+@import 'work';
+@import 'contact';
+@import 'featured';
+@import 'careers';
+@import 'blog';
+@import 'single-work';
+@import 'blog-single';
+@import 'general';
+@import 'about';
+@import 'category';
+@import 'footer';
+/*
+====================================
+Default Styling
+====================================
+*/
+
+img {
+	max-width: 100%;
+}
+
+
+
+
+
+
+
+

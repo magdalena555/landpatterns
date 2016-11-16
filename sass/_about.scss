@@ -1,0 +1,170 @@
+// JESSIE
+.team-description { 
+	display: none;
+ }
+
+ .team-images {
+ 	// float: left;
+ 	// max-width: 20%;
+ 	margin:20px;
+ }
+
+.team-images-container {
+	
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items: center;
+	.team-images{
+		p{
+			text-align: center;
+		}
+	}
+}
+.about .intro{
+	width:100%;
+	background: url("images/home-work-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding:40px 120px;
+	h1{
+		font-family: 'Roboto', sans-serif;
+		color:  #222222;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 38px;
+		text-align: center;
+	}
+	p{
+		font-family: 'Merriweather', serif;
+		color:  #444444;
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 30px;
+		text-align: center;
+	}
+	hr {
+	    display: block;
+	    margin: 0 auto;
+	    border: 1px solid  #48cfad;
+	    width: 230px;
+	}
+}
+.about-main{
+	background-color:  #f1f1f1;
+	padding:3%;
+	.about-wrapper{
+		display:flex;
+		flex-direction:row;
+		justify-content: space-between;
+		max-width: 1200px;
+		margin:0 auto;
+	}
+	.about-content{
+		padding:0 3%;
+		width:60%;
+		hr {
+		    display: block;
+		    margin: 0;
+		    border: 1px solid  #48cfad;
+		    width: 230px;
+		}
+	}
+	.about-images{
+		width:40%;
+		padding-left:5%;
+	}
+	.about-image-two{
+		position: relative;
+		top: -40px;
+		right: -100px;
+	}
+	h2{
+		font-family: 'Roboto', sans-serif;
+		color:  #222222;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 38px;
+		text-align: left;
+	}
+	p{
+		font-family: 'Merriweather', serif;
+		color:  #444444;
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 30px;
+		text-align: left;
+	}
+}
+.team{
+	padding: 3% 10%;
+	.team-content{
+		padding-bottom: 5%;
+	}
+	h2{
+		font-family: 'Roboto', sans-serif;
+		color:  #222222;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 38px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	p{
+		font-family: 'Merriweather', serif;
+		color:  #444444;
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 30px;
+		text-align: center;
+	}
+	hr {
+	    display: block;
+	    margin: 0 auto;
+	    border: 1px solid  #48cfad;
+	    width: 230px;
+	}
+}
+
+// Responsive design
+@media all and (max-width: 1500px) { 
+	
+
+}
+@media all and (max-width: 1024px) { 
+	.team-images-container {
+	    flex-direction: column;
+	}
+}
+
+.hide-on-desktop {
+	display: none;
+}
+@media all and (min-width: 940px) { 
+	
+
+}
+
+@media all and (max-width: 768px) {
+    .team-innerwrapper img {
+    	display: block;
+    	margin: 0 auto;
+    }
+	
+}
+
+@media all and (max-width: 667px) {
+
+}
+
+@media all and (max-width: 480px) {
+	
+}
+
+@media all and (max-width: 320px) {
+    .hide-on-mobile {
+    	display: none;
+    }
+
+    
+}
