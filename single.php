@@ -37,12 +37,20 @@
                           
                           </div><!-- .entry-utility -->
                         </div><!-- #post-## -->
+                        <div class="blog-below-container">
+                            <div id="nav-below" class="blog-navigation">
+                                <?php previous_post_link('%link', '&larr; %title'); ?>
+                                <?php next_post_link('%link', '%title &rarr;'); ?>
+                            </div><!-- #nav-below -->
+                            <div class="share">
+                              <p><?php the_field('share'); ?>           
+                              </p>
+                              <div class="share-buttons">
 
-                        <div id="nav-below" class="blog-navigation">
-                            <?php previous_post_link('%link', '&larr; %title'); ?>
-                            <?php next_post_link('%link', '%title &rarr;'); ?>
-                        </div><!-- #nav-below -->
-
+                              <p class="share-text">share this <span><?php echo do_shortcode('[ssba]'); ?></span> </p>
+                              </div>
+                            </div>
+                        </div>
                     </div>
                      
                 </div> <!-- /.content -->

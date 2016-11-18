@@ -55,7 +55,21 @@ p{
 .button:hover{
    opacity:.5;
 }
+.error{
+	padding:100px 10%;
+	background: #f1f1f1;
+}
+.nothing{
+	text-align: center;
+	padding:5%;
+}
 
+.nothing-search{
+	input{
+		margin:0 auto;
+		display: block;
+	}
+}
 // Responsive design
 @media all and (max-width: 1500px) { 
 	

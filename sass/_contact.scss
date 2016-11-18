@@ -168,6 +168,23 @@
 	color: #999 !important;
 	border: #999;
 }
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+	border: 1px solid #999 !important;
+}
+
+// This code is for the drop down border color
+.ginput_container_select select {
+	border: 0;
+	outline: 1px solid #999;
+	background-color: white;
+ }
+
+.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit] {
+    color: #fff !important;
+}
+
+
+
 @media all and (max-width: 1500px) { 
 	.gform_wrapper .top_label .gfield_label{
 		font-size: 18px !important;

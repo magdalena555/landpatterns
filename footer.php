@@ -1,6 +1,6 @@
 <section class="get-started">
 	<p><?php the_field('get-started', 'option' ); ?></p>
-	<a href=""><?php the_field('get-started-link', 'option'); ?>
+	<a href="<?php the_field('get-started-link', 'option'); ?>">
 		<span><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span> 
 	</a>
 </section>

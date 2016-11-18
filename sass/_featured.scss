@@ -23,10 +23,11 @@
 }
 .featured-image{
 	width: calc(31.33% - 15px);
-	height: 200px;
+	height: 250px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .feature{
 	.feature-title{
@@ -38,14 +39,6 @@
 		    width: 230px;
 		}
 		.wrapper{
-			position:relative;
-			top:0;
-			left:0;
-			bottom:0;
-			right:0;
-			margin:0;
-			top: 50%;
-			transform: translateY(-50%);
 			h1{
 				text-align: center;
 				text-transform: uppercase;
@@ -70,6 +63,7 @@
 				line-height: 38px;
 				text-align: center;
 				text-transform: uppercase;
+				margin:0;
 			}
 		}
 	}
@@ -79,7 +73,6 @@
 	width:100%;
 	padding: 3% 10%;
 	.featured-text{
-		max-width: 1000px;
 		margin: 0 auto;
 		p{
 			color:  #444444;
@@ -121,13 +114,70 @@
 }
 .sign-up-wrapper{
 	margin:0 auto;
-	width:360px;
+	width: 360px;
 }
 .share{
+	display: flex;
+	justify-content: center;
+	padding: 25px;
 	p{
 		text-align: center;
+		padding-right:25px;
+		text-transform: uppercase;
+		font-size: 18px;
+		margin:0;
 	}
 }
+.ssba-img{
+	max-width:35px;
+}
+.share-buttons{
+	display: flex;
+}
+
+
+.page-template-page-featured{
+	.gform_wrapper form {
+	    display: flex;
+	}
+	.gform_wrapper .top_label .gfield_label {
+	    display: none !important;
+	}
+	.gform_wrapper .gform_footer {
+	    padding: 0 !important;
+	    margin: 0 !important;
+	}
+	.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit] {
+		    width: 93px !important;
+		    border-radius: none !important;
+		}
+	.gform_wrapper ul li.gfield {
+	    margin-top: 0 !important;
+	    padding-top: 0 !important;
+	}
+	.gform_wrapper .top_label div.ginput_container {
+	    margin-top: 0 !important;
+	}
+	.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+	    width: 250px;
+	}
+	.button {
+	    border-radius: 0;
+	}
+	.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit] {
+		height: 50px !important;
+	}
+	.gform_wrapper ul.gform_fields li.gfield {
+	    padding-right: 0 !important;
+	}
+	.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit] {
+	    color: #fff !important;
+	}
+}
+
+
+
+
 
 // Responsive design
 @media all and (max-width: 1500px) { 

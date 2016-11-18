@@ -23,6 +23,7 @@ get_header();  ?>
     				 	 		
     				 	 		<div class="home-slider-titles">
     				 	 			<h1><?php the_sub_field('home-title'); ?></h1>
+
     				 	 			<a class="button" href="#home-work">
 										<p>
 											<?php the_sub_field('home-button-text'); ?>
@@ -49,6 +50,7 @@ get_header();  ?>
     	
 			<div class="home-work-intro intro">
 				<h1><?php the_field('work-intro'); ?></h1>
+				<hr>
 				<p><?php the_field('work-intro-content'); ?></p>
 			</div>
 

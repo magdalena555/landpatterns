@@ -45,15 +45,19 @@ get_header();  ?>
 						<hr>
 					</div>
 				</div>
-				<form class="sign-up">
-				    <p class="sign-up-title"><?php the_field('sign-up'); ?></p>
-				    <div class="sign-up-wrapper">
-				   		<input type="email" class="email">
-				   		<input type="submit" value="JOIN" class="signup-button">
-				    </div>
-				</form>
+				
+				<div class="sign-up">
+					<p class="sign-up-title"><?php the_field('sign-up'); ?></p>
+					<div class="sign-up-wrapper">
+						<?php the_content(); ?>
+					</div>
+				</div>
 				<div class="share">
-					<p><?php the_field('share'); ?></p>
+					<p><?php the_field('share'); ?>						
+					</p>
+					<div class="share-buttons">
+						<?php echo do_shortcode('[ssba]'); ?>
+					</div>
 				</div>
 			</div>
     		

@@ -86,9 +86,7 @@ header{
 // hide hambuger menu
 .mobileNavIcon {
     display: none;
-    i{
-		color:#62a945;
-    }
+
 }
 
 	
@@ -101,7 +99,7 @@ header{
 	right: 0px;
 	bottom:0;
 	background-color: white;
-	padding:25px 0;
+	padding: 60px 0;
 	height: 100%;
 	width:100%;
 	ul{
@@ -132,7 +130,8 @@ header .header-wrapper #menu-container ul.menu li a:hover {
 	padding-bottom: 30px;
 }
 .logo-desktop{
-	padding-bottom: 20px;
+	z-index: 9999;
+	position: relative;
 }
 .logo-mobile{
 	display: none;
@@ -158,12 +157,12 @@ header .header-wrapper #menu-container .mobile ul li a{
 	.mobile {
 	    height: 100%;
 	    position:fixed;
-	    top: 100px;
+	    top: 0;
 	    left: 0;
 	    right: 0;
 	    bottom: 0;
 	    width: 100%;
-		background-color: #f1f1f1;
+		background-color: #222;
 	}
 	header .header-wrapper .logo a {
 	    margin: 0 auto;
@@ -195,29 +194,10 @@ header .header-wrapper #menu-container .mobile ul li a{
 	    padding: 0 7%;
 	}
 
-	.home .logo-dark {
-	    display: block;
-	    width:150px;
-	    z-index: 9999;
-	    position: relative;
-	}
-	.home .logo{
-		display:none;
+	header .header-wrapper {
+	    height:50px;
 	}
 
-	.mobileNavIcon i {
-	    color: #443a38;
-	}
-	header .header-wrapper .logo{
-		display:none;
-	}
-	header .header-wrapper {
-	    height:100px;
-	    background: #fff;
-	}
-	.social-icons .fa {
-	    color:#443a38;
-	}
 	.social-icons {
 	    justify-content: center;
 	}
@@ -229,18 +209,20 @@ header .header-wrapper #menu-container .mobile ul li a{
 	    top: 0;
 	}
 
-	.logo-mobile{
-		display: block;
-	}
-	.logo-desktop{
-		display: none;
-	}
-	header .header-wrapper {
-		background-color: #f1f1f1;
-	}
 	header .header-wrapper #menu-container .menu ul{
 	    padding-left: 0;
 	}
+	.mobileNavIcon{
+		img{
+			max-width: 36px;
+		}
+	}
+	header .header-wrapper #menu-container .mobile ul li a {
+	    color: #fff;
+	}
+	header .header-wrapper #menu-container .menu ul{
+		padding-top:50px;
+	} 
 }
 
 

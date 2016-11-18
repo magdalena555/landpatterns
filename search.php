@@ -12,11 +12,16 @@
 				<?php get_template_part( 'loop', 'search' ); ?>
 
 				<?php else : ?>
-
-					<h2>Nothing Found</h2>
-					<p>Sorry, but nothing matched your search criteria. Please try again with some different keywords.</p>
-					<?php get_search_form(); ?>
-		
+					<?php $image = get_field('blog-single-hero', 'options'); ?>
+				    <div class="hero-small" style="background-image: url('<?php echo $image['sizes'] ['hero-small'] ; ?>');">
+				    </div>
+			    	<div class="nothing">
+			    		<h2 >Nothing Found</h2>
+			    		<p>Sorry, but nothing matched your search criteria. Please try again with some different keywords.</p>
+			    		<div class="nothing-search">
+			    			<?php get_search_form(); ?>
+			    		</div>
+			    	</div>
 		</div>
 		
 

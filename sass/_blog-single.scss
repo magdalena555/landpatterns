@@ -1,9 +1,10 @@
 .blog-single-image{
 	height: 400px;
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
     position: relative;
     top: -100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .single-blog-main{
 	padding: 0 10% 3%;
@@ -108,8 +109,9 @@ form{
 .blog-navigation{
 	display: flex;
 	justify-content:center;
-	margin: 0 10% 10%;
+	margin: 0 0 10%;
 	justify-content: flex-start;
+	flex-wrap:wrap;
 	a{
 		color:#fff;
 		border: 2px solid #48cfad;
@@ -136,6 +138,21 @@ form{
 	    border: 1px solid  #48cfad;
 	    width: 230px;
 	}
+}
+
+.blog-below-container{
+	display: flex;
+	justify-content:space-between;
+	padding:0 10%;
+	flex-wrap:wrap;
+}
+.share-text{
+	display: flex;
+}
+
+
+.search .gform_wrapper{
+	display: none !important;
 }
 // Responsive design
 @media all and (max-width: 1390px) { 

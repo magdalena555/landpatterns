@@ -33,13 +33,7 @@
                         <img width="200" src="<?php echo $image ['sizes']['logo'] ?>"> 
                     </a>
                 </div>
-                <?php $image = get_field('logo-dark', 'option'); ?>
-                <?php $page_id = 11; ?>
-                <div class="logo-mobile">
-                    <a href="<?php echo get_permalink( $page_id ); ?>"> 
-                        <img width="172" src="<?php echo $image ['sizes']['logo'] ?>"> 
-                    </a>
-                </div>
+                
                 <!-- left nav -->
                 <nav class="desktop-nav ">
                     
@@ -50,9 +44,6 @@
 
                 </nav>
                 <nav class="mobile ">
-                    <a class="cart" href="">
-                        <?php the_field('cart', 'option'); ?>
-                    </a>
                     <?php wp_nav_menu( array(
                       'container' => false,
                       'theme_location' => 'mobile'
@@ -62,7 +53,11 @@
              
                 
                 <!-- hamburger menu -->
-                <a href="#" class="mobileNavIcon"><i class="fa fa-bars"></i></a>
+                <a href="#" class="mobileNavIcon">
+                    <img src="<?php bloginfo("template_url")?>/images/hamburger.png">
+                </a>
+         <!--        <a href="#" class="mobileNavIcon"><i class="fa fa-bars"></i>
+                </a> -->
             </div>   
             
         </div> <!-- header wrapper -->

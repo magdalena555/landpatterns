@@ -77,6 +77,7 @@ section{
 		.blog-image{
 			width: 360px;
 			height: 260px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			img{
 				display: block;
 				margin:0 auto;
@@ -175,6 +176,8 @@ section{
 }
 .xoxo{
 	display: flex;
+	flex-wrap:wrap;
+	justify-content:center;
 	li{
 		margin:20px;
 		background: #fff;
@@ -286,6 +289,9 @@ section{
 @media all and (max-width: 667px) {
 	.blog-main {
 	    padding: 0;
+	}
+	.more-link {
+	    margin: 0 auto;
 	}
 }
 

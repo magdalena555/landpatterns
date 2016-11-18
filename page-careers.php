@@ -27,7 +27,7 @@ get_header();  ?>
 
 						<div class="position-item">
 				           <p class="text"><?php the_sub_field('position'); ?></p>
-				           <a class="button" href="">
+				           <a class="button" href="<?php the_sub_field('position-link'); ?> ">
 				           		<p>apply</p>
 				           </a>
 						</div>
@@ -38,7 +38,6 @@ get_header();  ?>
 				</div>
 			<?php endif; ?>
 
-			<?php echo do_shortcode('[ssba]'); ?>
 			
 		</section>      
 

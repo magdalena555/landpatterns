@@ -8,22 +8,14 @@
 .intro{
 	width:100%;
 	background: url("images/home-work-bg.jpg");
-	height: 180px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 3% 10%;
+	min-height: 200px;
 }
 
 .work-single-title{
 	.wrapper{
-		position:relative;
-		top:0;
-		left:0;
-		bottom:0;
-		right:0;
-		margin:0;
-		top: 50%;
-		transform: translateY(-50%);
 		h1{
 			text-align: center;
 			text-transform: uppercase;
@@ -38,6 +30,7 @@
 		    margin: 0 auto;
 		    border: 1px solid  #48cfad;
 		    width: 230px;
+		    margin-bottom: 20px;
 		}
 		p{
 			font-family: 'Merriweather', serif;
@@ -78,8 +71,9 @@
 		    display: block;
 		    margin: 0;
 		    border: 1px solid  #48cfad;
-		    width: 100%;
+		    width: 230px;
 		    transition: width .5s ease;
+		    margin: 0 auto;
 		}
 		p{
 			font-family: 'Merriweather', serif;
@@ -96,6 +90,7 @@
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 240px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .work-portfolio-image{
 	background-size: cover;
@@ -114,6 +109,7 @@
 	}
 }
 .portfolio-text{
+	padding:5%;
 	h1{
 		font-family: 'Roboto', sans-serif;
 		color:  #222222;
@@ -164,7 +160,9 @@
     	}
     }
 }
-
+.single .intro {
+    height: 250px
+}
 // Responsive design
 @media all and (max-width: 1500px) { 
 	
@@ -175,12 +173,15 @@
 	    flex-direction: column;
 	}
 	.work-item-container .work-item {
-	    width: 50%;
+	    width: 55%;
 	    margin: 0 auto;
 	}
 	.work-portfolio {
 	    max-width: 500px;
 	    height: auto;
+	}
+	.intro {
+	    padding: 50px 10%;
 	}
 
 }
@@ -188,9 +189,7 @@
 	.work-portfolio .work-portfolio-wrapper {
 	    top: 0;
 	}
-	.intro {
-	    height: 350px;
-	}
+
 }
 
 @media all and (max-width: 768px) {
