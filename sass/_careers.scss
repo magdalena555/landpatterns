@@ -50,7 +50,9 @@
 }
 
 @media all and (max-width: 667px) {
-
+	.position-item .button {
+	    max-width: 150px;
+	}
 }
 
 @media all and (max-width: 480px) {

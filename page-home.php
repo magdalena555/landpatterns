@@ -23,8 +23,8 @@ get_header();  ?>
     				 	 		
     				 	 		<div class="home-slider-titles">
     				 	 			<h1><?php the_sub_field('home-title'); ?></h1>
-
-    				 	 			<a class="button" href="#home-work">
+									<?php $page_id = 32; ?>
+    				 	 			<a class="button" href="<?php echo get_permalink( $page_id ); ?>">
 										<p>
 											<?php the_sub_field('home-button-text'); ?>
 										</p>

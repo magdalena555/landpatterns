@@ -4,8 +4,7 @@
  }
 
  .team-images {
- 	// float: left;
- 	// max-width: 20%;
+
  	margin:20px;
  }
 
@@ -62,10 +61,13 @@
 		justify-content: space-between;
 		max-width: 1200px;
 		margin:0 auto;
+		flex-wrap:wrap;
 	}
 	.about-content{
 		padding:0 3%;
 		width:60%;
+		display: flex;
+		flex-direction:column;
 		hr {
 		    display: block;
 		    margin: 0;
@@ -76,7 +78,6 @@
 	}
 	.about-images{
 		width:40%;
-		padding-left:5%;
 		img{
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		}

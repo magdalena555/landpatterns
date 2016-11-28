@@ -1,12 +1,13 @@
 
+
 // header
 header{
 	width:100%;
 	z-index:9999;
 	background: transparent;
 	top:0;
-	display: flex;
-	justify-content:center;
+	// display: flex;
+
 	// header-wrapper
 	.header-wrapper{
 		padding: 0 2%;
@@ -14,9 +15,10 @@ header{
 		display: flex;
 		align-items: center;
 		z-index:999;
-		max-width: 1450px;
+		max-width: 1200px;
 		margin: 0 auto;
 		position: absolute;
+		background: transparent;
 		// logo
 		.logo{
 		    align-items: center;
@@ -71,6 +73,8 @@ header{
 	} //end of header-wrapper
 } // end of header
 
+
+
 .social-icons{
 	display: flex;
 	justify-content: flex-end; 
@@ -124,8 +128,6 @@ header .header-wrapper #menu-container ul.menu li a:hover {
 	border-bottom: 1px solid #48cfad;
 }
 
-
-
 .desktop-nav{
 	padding-bottom: 30px;
 }
@@ -143,6 +145,21 @@ header .header-wrapper #menu-container .mobile ul li{
 header .header-wrapper #menu-container .mobile ul li a{
 	color:#222;
 }
+.home-slider-titles {
+	z-index: 999999;
+	position: relative;
+}
+
+
+/*hide and show sticky nav bar*/
+
+// .colour-change{
+// 	background: white;
+// 	opacity: 1;
+// }
+// .appear{
+// 	opacity: 1;
+// }
 
 
 // Responsive design
@@ -188,7 +205,7 @@ header .header-wrapper #menu-container .mobile ul li a{
 	header .header-wrapper #menu-container ul.menu li {
 	    display: flex;
 	    flex-direction: column;
-	    padding-bottom: 25px;
+	    padding: 5px;
 	}
 	header .header-wrapper {
 	    padding: 0 7%;
@@ -223,6 +240,10 @@ header .header-wrapper #menu-container .mobile ul li a{
 	header .header-wrapper #menu-container .menu ul{
 		padding-top:50px;
 	} 
+	header .header-wrapper #menu-container ul.menu{
+		height: auto;
+	}
+
 }
 
 

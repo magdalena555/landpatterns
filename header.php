@@ -18,10 +18,9 @@
 <body <?php body_class(); ?>>
 
 
-<header class="">
-
+<header class="body-wrapper">
         <!-- header-wrapper -->
-        <div class="header-wrapper">
+        <div class="header-wrapper nav">
 
                 <!-- menu container -->
             <div id="menu-container">

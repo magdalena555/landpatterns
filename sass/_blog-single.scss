@@ -7,7 +7,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .single-blog-main{
-	padding: 0 10% 3%;
+	padding: 5%;
 }
 .single-blog{
 
@@ -143,8 +143,10 @@ form{
 .blog-below-container{
 	display: flex;
 	justify-content:space-between;
-	padding:0 10%;
+	padding:3% 0;
 	flex-wrap:wrap;
+	max-width: 1200px;
+	margin:0 auto;
 }
 .share-text{
 	display: flex;
@@ -159,7 +161,9 @@ form{
 
 }
 @media all and (max-width: 1024px) { 
-	
+	.blog-below-container {
+		justify-content:center;
+	}
 }
 @media all and (max-width: 940px) { 
 
